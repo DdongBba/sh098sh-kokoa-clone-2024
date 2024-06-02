@@ -1,0 +1,14 @@
+.dividing-line {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.dividing-line__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 15px;
+}

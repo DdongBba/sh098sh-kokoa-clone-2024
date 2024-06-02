@@ -1,0 +1,51 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-top: 35px;
+  margin-bottom: 7px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: -3px;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+  position: relative;
+}
+
+.screen-header__icons__icon .badge {
+  position: absolute;
+  left: 10px;
+  bottom: 30px;
+  height: 5px;
+  width: 5px;
+}
+
+/* <header class="screen-header">
+<h1 class="screen-header__title">More</h1>
+<div class="screen-header__icons">
+    <span class="screen-header__icons__icon"><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+    <span class="screen-header__icons__icon"><i class="fa-solid fa-music fa-2x"></i></span>
+    <span class="screen-header__icons__icon">
+        <i class="fa-solid fa-gear fa-2x"></i>
+        <span class="badge"></span>
+    </span>
+</div> */
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}

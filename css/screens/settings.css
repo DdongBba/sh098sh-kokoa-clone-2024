@@ -1,0 +1,80 @@
+.settings-bar {
+  position: fixed;
+  top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  padding: var(--horizontal-space);
+  margin-top: 20px;
+  margin-bottom: 7px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.settings-bar__column {
+  width: 33%;
+}
+
+.settings-bar__column:nth-child(2) {
+  text-align: center;
+}
+
+.settings-bar__column:last-child span {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+.settings-screen {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.settings__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 27px 0px;
+  font-size: 23px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.settings__menu:last-child {
+  border: none;
+}
+
+.settings__menu i {
+  width: 30px;
+}
+
+.settings__column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.settings__column:last-child {
+  opacity: 0.5;
+}
+
+.settings__upper,
+.settings__lower {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.settings__column .badge {
+  font-size: 12px;
+  font-weight: 700;
+  height: 20px;
+  width: 20px;
+  margin-left: -10px;
+}

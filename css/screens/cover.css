@@ -1,0 +1,8 @@
+#cover-icon {
+  font-size: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--yellow);
+}
